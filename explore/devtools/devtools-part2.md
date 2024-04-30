@@ -1,0 +1,2 @@
+1. The bug is that the values in num1 and num2 are getting saved as strings, so when they're added together, Javascript treats the addition like string concatenation instead of adding the values of the variables together.
+2. I would fix it by converting num1 and num2 to numbers.
